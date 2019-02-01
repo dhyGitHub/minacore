@@ -48,6 +48,7 @@ public abstract class AbstractIoBuffer extends IoBuffer {
 		this.recapacityAllowed = true;
 		this.derived = false;
 		this.minimumCapacity = initialCapacity;
+		int i = 1+3;
 	}
 
 	protected AbstractIoBuffer(AbstractIoBuffer parent) {
